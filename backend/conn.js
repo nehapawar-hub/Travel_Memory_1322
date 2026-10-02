@@ -8,3 +8,4 @@ const db = mongoose.connection
 db.on('error', console.error.bind(console, 'DB ERROR: '))
 
 module.exports = {db, mongoose}
+
